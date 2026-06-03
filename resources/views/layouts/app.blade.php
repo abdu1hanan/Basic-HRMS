@@ -43,7 +43,7 @@
         <div class="row h-100">
             @auth
                 <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-flex flex-column sidebar collapse h-100 pt-3 overflow-y-auto">
-                    <div class="collapsed-vertical-brand">Company</div>
+                    <div class="collapsed-vertical-brand">COMPANY</div>
                     <div class="flex-grow-1">
                         @if(auth()->user()->isSuperAdmin())
                             @include('layouts.nav-super-admin')
