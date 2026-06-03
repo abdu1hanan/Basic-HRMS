@@ -11,7 +11,7 @@ Perfect as a ready-to-use internal tool or a standout project for your resume.
 ### 1. Database Setup
 Create a new MySQL database for the project (e.g., using DBeaver, phpMyAdmin, or terminal):
 ```sql
-CREATE DATABASE hrms_beetleops CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+CREATE DATABASE <YOUR-DB-NAME> CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 ```
 
 ### 2. Configure Environment
