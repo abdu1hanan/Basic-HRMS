@@ -30,10 +30,10 @@ DB_PASSWORD=your_mysql_password
 ```
 
 ### 3. Install & Initialize
-Run the following commands in your terminal to install dependencies, run migrations, and seed the database with initial roles, department structures, and super-admin credentials:
+Run the following commands in your terminal to install PHP dependencies, generate an application key, run migrations, and seed the database with initial roles, department structures, and super-admin credentials:
 ```bash
 composer install
-npm install && npm run build
+php artisan key:generate
 php artisan migrate --seed
 ```
 
